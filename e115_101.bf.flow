@@ -1,0 +1,68 @@
+
+// 
+// FlowScript decompiled by AtlusScriptLib by TGE (2017)
+// In the unfortunate case of any bugs, please report them back to me.
+// 
+
+
+// 
+// Imports
+// 
+
+import( "e115_101.bf.msg" );
+
+// 
+// Procedure declarations
+// 
+
+void e115_101_init()
+{
+}
+
+
+void e115_101_TEX_ON()
+{
+}
+
+
+void e115_101_PAD_WAIT()
+{
+    MSG_WND_DSP();
+	MSG( TestMSG, 0 );
+	int option = SEL(TestSelect);
+	MSG_WND_CLS();
+	MSG_WND_DSP();
+	MSG( res1, 0 );
+	int option1 = SEL(bone1);
+	MSG_WND_CLS();
+	MSG_WND_DSP();
+	MSG( res2, 0 );
+	int option2 = SEL(bone2);
+	MSG_WND_CLS();
+	MSG_WND_DSP();
+	MSG( res3, 0 );
+	int option3 = SEL(nah);
+	MSG_WND_CLS();
+	MSG_WND_DSP();
+	MSG( res4, 0 );
+	int option4 = SEL(bone4);
+	MSG_WND_CLS();
+	MSG_WND_DSP();
+	MSG( res5, 0 );
+	int option5 = SEL(bone5);
+	MSG_WND_CLS();
+	MSG_WND_DSP();
+	MSG( res6, 0 );
+	int option6 = SEL(bone6);
+	MSG_WND_CLS();
+	MSG_WND_DSP();
+	MSG( res7, 0 );
+	int option7 = SEL(bone7);
+	MSG_WND_CLS();
+}
+
+
+void e115_101_TEX_OFF()
+{
+}
+
